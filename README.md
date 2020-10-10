@@ -6,37 +6,36 @@
 
  Follow this steps:
  
- ### 1. pactl unload-module module-switch-on-connect                                  
+### 1. pactl unload-module module-switch-on-connect                                  
 
- ### 2. cp /etc/pulse/default.pa ~/.config/pulse                                     
+### 2. cp /etc/pulse/default.pa ~/.config/pulse                                     
 
-     sed -i 's/load-module module-switch-on-                                       
+    3. sed -i 's/load-module module-switch-on-                                       
                                                                                     
-     connect/#load-module module-switch-on-                                         
+    4. connect/#load-module module-switch-on-                                         
                                                                                     
-     connect/g' ~/.config/pulse/default.pa                                          
+    5. connect/g' ~/.config/pulse/default.pa                                          
 
- ### 3. pactl unload-module module-device-manager                                    
+### 6. pactl unload-module module-device-manager                                    
 
- ### 4. echo "pactl unload-module module-device-manager                             
+### 7. echo "pactl unload-module module-device-manager                             
                                                                                     
-     > /dev/null 2>&1" >> ~/.bashrc                                                 
+    8. > /dev/null 2>&1" >> ~/.bashrc                                                 
 
-  ### 5. /../src/pulse/operation.c:133, function pa_operation_get_state(). Aborting. 
+### 9. /../src/pulse/operation.c:133, function pa_operation_get_state(). Aborting. 
 
-  ### 6. dconf reset -f /com/github/wwmm/pulseeffects                                
+### 10. dconf reset -f /com/github/wwmm/pulseeffects                                
 
- ### 7. flatpak install flathub                                                      
+### 11. flatpak install flathub                                                      
                                                                                    
-     com.github.wwmm.pulseeffects                                                   
+    12. com.github.wwmm.pulseeffects                                                   
 
- ### 8. sudo add-apt-repository                                                      
+### 13. sudo add-apt-repository                                                      
                                                                                     
-     ppa:mikhailnov/pulseeffects                                                   
+    14. ppa:mikhailnov/pulseeffects                                                   
                                                                                     
-     sudo apt update                                                                                                                                                    
-     sudo apt install pulseeffects pulseaudio --                                    
+    15. sudo apt update                                                                                                                                                    
+    16. sudo apt install pulseeffects pulseaudio --                                    
                                                                                     
-     install-recommends                                                             
+    17. install-recommends                                                             
      
-
