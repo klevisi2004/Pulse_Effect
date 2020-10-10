@@ -5,6 +5,7 @@
 ![capture](https://user-images.githubusercontent.com/62477193/95663492-2827d680-0b2f-11eb-9679-fa108c0243b6.png)
 
  Follow this steps:
+### Warning: if any text has error in installation, just skip it
  
 ### 1. pactl unload-module module-switch-on-connect                                  
 
