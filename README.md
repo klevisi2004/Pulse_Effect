@@ -8,7 +8,7 @@
 ![capture](https://user-images.githubusercontent.com/62477193/95663492-2827d680-0b2f-11eb-9679-fa108c0243b6.png)
 -----------------------------------------------------------------------------------------------------------
 #### Follow me 
-###### https://www.instagram.com/klevis_r1
+###### https://www.instagram.com/vissi_16
 ###### https://youtube.com/c/kvisiofficial
 ###### https://www.linkedin.com/in/klevis-ruci-0371081ba/
 -----------------------------------------------------------------------------------------------------------
